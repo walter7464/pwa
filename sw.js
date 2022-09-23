@@ -2,9 +2,10 @@ const cacheName = 'walter'
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(cacheName).then((cache) => cache.addAll([
-      '/index.html',
-      '/index.js',
-      '/style.css',
+      './index.html',
+      './index.js',
+      './style.css',
+      './icon/icon.png'
     ])),
   );
 });
