@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f5f5f5;
+    user-select: none;
+}
+
+h1 {
+    color: #888;
+    margin: 20px 25%;
+    cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+#build {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+span {
+    padding: 5px;
+    color: #999e;
+}
